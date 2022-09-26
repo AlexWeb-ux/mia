@@ -39,7 +39,6 @@ body {
   font-size: 18px;
   min-width: 320px;
   position: relative;
-  overflow-x: hidden;
 	background-color: #fff;
 	color: #050505;
 }
@@ -83,13 +82,29 @@ p {
 	margin-bottom: 0px;
 }
 .custom__img {
-	max-height: 550px;
+	height: 550px;
+	width: 100%;
+	position: relative;
 	overflow: hidden;
 }
 .custom__img img {
-  display: block;
+  position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+.custom__img__second {
+	height: 450px;
 	width: 100%;
-	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.custom__img__second img {
+  position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 	object-fit: cover;
 }
 /*header*/
@@ -503,14 +518,12 @@ nav.menu ul li:hover > ul {
 	display: grid;
 	justify-content: center;
   grid-template-columns: repeat(2, 1fr);;
-	gap: 10px;
+	gap: 10px;	
 }
 /**/
 .rental__single {
 	display: grid;
-	justify-content: center;
   grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: 1fr;
 	gap: 50px;
 }
 .left .link {
@@ -521,10 +534,10 @@ nav.menu ul li:hover > ul {
 	text-align: center;
 	padding: 20px;
 }
-.widget {
+.right  {
   position: sticky;
-	top: 0;
-	align-self: start;
+  top: 0;
+  align-self: start;
 }
 .contact {
 	margin-bottom: 18px;
