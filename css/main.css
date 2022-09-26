@@ -509,7 +509,8 @@ nav.menu ul li:hover > ul {
 .rental__single {
 	display: grid;
 	justify-content: center;
-  grid-template-columns: repeat(2, 1fr);;
+  grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
 	gap: 50px;
 }
 .left .link {
@@ -520,9 +521,10 @@ nav.menu ul li:hover > ul {
 	text-align: center;
 	padding: 20px;
 }
-.right .widget {
+.widget {
   position: sticky;
 	top: 0;
+	align-self: start;
 }
 .contact {
 	margin-bottom: 18px;
@@ -539,7 +541,54 @@ nav.menu ul li:hover > ul {
 }
 .contact__text {
 	border: 1px solid #ebebeb;
-	padding: 50px 25px 25px;
+	padding: 60px 25px 25px;
+}
+.contact__title {
+  font-weight: 600;
+	font-size: 20px;
+}
+.contact__hours, .contact__web, .contact__phone {
+	position: relative;
+	line-height: 1.5;
+	font-weight: 600;
+	padding-left: 50px;
+}
+.contact__hours span, .contact__web span, .contact__phone span {
+	font-weight: 400;
+	font-size: 16px;
+}
+.contact__phone::before {
+  content: '';
+	position: absolute;
+	background-image: url(/img/phone_icon.svg);
+	width: 35px;
+	height: 35px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	left: 0;
+}
+.contact__web::before {
+  content: '';
+	position: absolute;
+	background-image: url(/img/globe_global_internet_icon.svg);
+	width: 35px;
+	height: 35px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	left: 0;
+}
+.contact__hours::before {
+  content: '';
+	position: absolute;
+	background-image: url(/img/clock_icon.svg);
+	width: 35px;
+	height: 35px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	left: 0;
 }
 /*footer*/
 footer {
