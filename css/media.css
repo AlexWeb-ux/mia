@@ -59,7 +59,7 @@
   }
 	.menu {
 		position: fixed;
-    z-index: 999;
+    z-index: 2;
     background-color: #fff;
     width: 300px;
     top: 0;
@@ -88,9 +88,6 @@
   }
 	.menu__dropdown {
     border: none;
-    border-radius: 5px;
-    z-index: 99;
-    background-color: #fff;
     position: relative;
     width: 100%;
     right: 0;
