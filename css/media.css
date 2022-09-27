@@ -15,14 +15,23 @@
     padding-left: 50px;
   }
 	.list {
-    font-size: 18px;
+    font-size: 16px;
   }
 	.content__blog {
     gap: 15px;
   }
 }
-@media only screen and (max-width : 1000px) {
-	
+@media only screen and (max-width : 1119px) {
+	body {
+    font-size: 17px;
+  }
+	.blog__item__img {
+    height: 200px;
+    width: 100%;
+  }
+  .list {
+  	font-size: 17px;
+  }
 }
 @media only screen and (max-width : 768px) {
 	
