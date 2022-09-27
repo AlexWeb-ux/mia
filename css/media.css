@@ -145,6 +145,9 @@
 	.content__blog {
     grid-template-columns: repeat(2, 1fr);
   }
+	.image-slider-main {
+    height: 320px;
+  }
 }
 @media only screen and (max-width : 440px) {
 	
