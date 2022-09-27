@@ -114,6 +114,9 @@ p {
 	justify-content: space-between;
 	align-items: center;
 }
+.menu__icon {
+	display: none;
+}
 .logo {
 	max-width: 260px;
 	padding-left: 70px;
