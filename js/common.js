@@ -9,7 +9,7 @@ pagination: {
 		slidesPerView: 1,
 breakpoints: {
 				// when window is <= 380px
-				380: {
+				375: {
 						slidesPerView: 1,
 						spaceBetween: 0
 				},
@@ -47,6 +47,28 @@ navigation: {
 },
 spaceBetween: 10,
 slidesPerView: 3,
+breakpoints: {
+	// when window is <= 380px
+	375: {
+			slidesPerView: 1,
+			spaceBetween: 0
+	},
+	// when window is <= 516px
+	516: {
+			slidesPerView: 1,
+			spaceBetween: 0
+	},
+	// when window is <= 768px
+	768: {
+			slidesPerView: 1,
+			spaceBetween: 0
+	},
+	// when window is <= 992px
+	992: {
+			slidesPerView: 1,
+			spaceBetween: 0
+	},
+ }
 });
 
 $('.menu__icon').click(function() {
