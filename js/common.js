@@ -53,15 +53,15 @@ breakpoints: {
 			spaceBetween: 0
 	},
 	720: {
-		slidesPerView: 2,
+		slidesPerView: 2.3,
 		spaceBetween: 10
   },
 	912: {
-		slidesPerView: 2,
+		slidesPerView: 2.5,
 		spaceBetween: 10
   },
 	1000: {
-		slidesPerView: 2.5,
+		slidesPerView: 2.8,
 		spaceBetween: 10
   },
 	1200: {
