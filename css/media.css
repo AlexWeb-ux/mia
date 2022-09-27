@@ -98,6 +98,9 @@
     padding: 5px 15px;
     font-size: 16px;
   }
+	.image-slider-main {
+		height: 500px;
+	}
 	.footer__logo p {
     font-size: 12px;
   }
