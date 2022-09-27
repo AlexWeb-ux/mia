@@ -97,6 +97,21 @@
     padding: 5px 15px;
     font-size: 16px;
   }
+	.footer__logo p {
+    font-size: 12px;
+  }
+	.footer__logo {
+    max-width: 230px;
+  }
+	.footer__logo a::before {
+    width: 35px;
+    height: 35px;
+    top: 3px;
+  }
+	footer .list li {
+    display: inline;
+    margin-left: 15px;
+  }
 }
 @media only screen and (max-width : 768px) {
 	
