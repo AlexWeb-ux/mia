@@ -393,6 +393,9 @@ nav.menu ul li:hover > ul {
 .blog__item__text {
 	padding: 15px 20px ;
 }
+.blog__item__text:hover {
+	color: #ff0000;
+}
 .blog__item__img {
   height: 275px;
 	position: relative;
