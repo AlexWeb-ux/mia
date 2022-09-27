@@ -197,7 +197,7 @@ p {
 .menu__dropdown li a::after {
   content: none;
 }
-nav.menu ul li a::after:hover > ul {
+nav.menu ul li a:hover::after > ul {
 	display:block;
 	transition: 0.5s;
 }
