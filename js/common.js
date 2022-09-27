@@ -5,8 +5,8 @@ pagination: {
 	el: ".swiper-pagination",
 	type: "fraction",
 },
-		spaceBetween: 0,
-		slidesPerView: 1,
+spaceBetween: 0,
+lidesPerView: 1,
 breakpoints: {
 				// when window is <= 380px
 				375: {
@@ -33,7 +33,7 @@ breakpoints: {
 						slidesPerView: 1,
 						spaceBetween: 0
 				},
-		}
+		}.
 });
 var imageSlider = new Swiper('.image-slider-main', {
 	autoplay: {
@@ -49,12 +49,12 @@ spaceBetween: 10,
 slidesPerView: 3,
 breakpoints: {
 	// when window is <= 380px
-	380: {
+	360: {
 			slidesPerView: 1,
 			spaceBetween: 0
 	},
 
- }
+ },
 });
 
 $('.menu__icon').click(function() {
