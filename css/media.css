@@ -142,6 +142,9 @@
 	.content__category {
     grid-template-columns: repeat(3, 1fr);
   }
+	.content__blog {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media only screen and (max-width : 440px) {
 	
