@@ -165,4 +165,15 @@
 	footer .list li:first-child {
     margin-left: 0px;
   }
+	.footer__logo {
+    max-width: 175px;
+  }
+	.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+	.footer__menu {
+		display: none;
+	}
 }
