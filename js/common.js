@@ -33,7 +33,7 @@ breakpoints: {
 						slidesPerView: 1,
 						spaceBetween: 0
 				},
-		}.
+		}
 });
 var imageSlider = new Swiper('.image-slider-main', {
 	autoplay: {
@@ -54,7 +54,7 @@ breakpoints: {
 			spaceBetween: 0
 	},
 
- },
+ }
 });
 
 $('.menu__icon').click(function() {
