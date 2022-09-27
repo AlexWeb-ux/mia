@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-	var imageSlider = new Swiper('.image-slider', {
+var imageSlider = new Swiper('.image-slider', {
 loop: false,
 pagination: {
 	el: ".swiper-pagination",
@@ -47,8 +47,12 @@ navigation: {
 },
 spaceBetween: 10,
 slidesPerView: 3,
-
 });
+
+$('.menu__icon').click(function() {
+	$('.menu').addClass('active');
+
+})
 
 
 });
