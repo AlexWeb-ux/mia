@@ -67,6 +67,9 @@
     padding: 30px 15px;
 		margin-left: -300px;
 	}
+	.header__menu {
+    height: 100px;
+  }
 	.menu__icon {
 		display: block;
 	}
