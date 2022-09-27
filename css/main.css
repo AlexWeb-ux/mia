@@ -174,7 +174,7 @@ p {
 	background-color: #fff;
 	position: absolute;
 	width: 195px;
-	left: 0;
+	right: 0;
 	display: none;
 }
 .menu__dropdown li {
