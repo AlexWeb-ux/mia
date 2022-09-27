@@ -1,5 +1,22 @@
-@media only screen and (max-width : 1215px) {
-	
+@media only screen and (max-width : 1230px) {
+	.header__menu {
+    height: 135px;;
+  }
+	.logo p {
+    font-size: 15px;
+  }
+	.logo a::before {
+    width: 40px;
+    height: 40px;
+		top: 5px;
+  }
+	.logo {
+    max-width: 230px;
+    padding-left: 50px;
+  }
+	.content__blog {
+    gap: 15px;
+  }
 }
 @media only screen and (max-width : 1000px) {
 	
