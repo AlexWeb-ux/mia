@@ -178,9 +178,24 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
+	.rental__wrap {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+	.rental__text {
+    font-size: 10px;
+    padding: 10px 0px;
+  }
+	.rental__wrap__item img {
+    max-height: 70px;
+    padding: 20px 0px 20px;
+  }
 	.hotels {
     grid-template-columns: repeat(1, 1fr);
   }
+	.custom__img {
+    height: 235px;
+	}
 	.footer__second {
     justify-content: center;
     flex-wrap: wrap;
