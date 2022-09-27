@@ -68,6 +68,10 @@
     padding: 30px 15px;
 		margin-left: -300px;
 	}
+	.menu.active {
+    margin-left: 0;
+		transition: 0.5s;
+	}
 	.header__menu {
     height: 100px;
   }
