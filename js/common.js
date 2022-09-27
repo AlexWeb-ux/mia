@@ -61,14 +61,13 @@ breakpoints: {
 		spaceBetween: 10
   },
 	1000: {
-		slidesPerView: 2,
+		slidesPerView: 2.5,
 		spaceBetween: 10
   },
 	1200: {
-		slidesPerView: 2.8,
+		slidesPerView: 3,
 		spaceBetween: 10
   },
-
  }
 });
 
