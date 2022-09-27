@@ -126,6 +126,43 @@
 @media only screen and (max-width : 440px) {
 	
 }
-@media only screen and (max-width : 393px) {
-	
+@media only screen and (max-width : 375px) {
+	h1 {
+    font-size: 45px;
+    line-height: 1.0;
+    margin-bottom: 15px;
+  }
+	.swiper-slide p {
+    font-size: 16px;
+  }
+	.swiper-slide h1 {
+    margin-top: 140px;
+   }
+	.content__category {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+	.category__title {
+    font-size: 18px;
+  }
+	.category__item img {
+    height: 80px;
+  }
+	.category__item a {
+    padding: 20px 0px;
+  }
+	.image-slider {
+    height: 450px;
+  }
+	.content__blog {
+    gap: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+	.footer__second {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+	footer .list li:first-child {
+    margin-left: 0px;
+  }
 }
