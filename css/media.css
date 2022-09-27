@@ -117,8 +117,23 @@
     margin-left: 15px;
   }
 }
-@media only screen and (max-width : 768px) {
-	
+@media only screen and (max-width : 1000px) {
+	.blog__item__img {
+    height: 185px;
+  }
+	.airlines__text {
+    font-size: 16px;
+  }
+	.airlines__wrap__item img {
+    max-height: 95px;
+    padding: 22px 0px 20px;
+  }
+	.transport__text {
+    font-size: 18px;
+  }
+	.custom__img {
+    height: 480px;
+  }
 }
 @media only screen and (max-width : 667px) {
 	
