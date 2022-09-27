@@ -138,8 +138,10 @@
     padding: 20px 15px;
   }
 }
-@media only screen and (max-width : 667px) {
-	
+@media only screen and (max-width : 768px) {
+	.content__category {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 @media only screen and (max-width : 440px) {
 	
