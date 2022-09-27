@@ -162,7 +162,7 @@ p {
 	width: 20px;
 	height: 20px;
 	position: absolute;
-	background-image: url(/img/down_b_arrow_icon.svg);
+	background-image: url(./img/down_b_arrow_icon.svg);
 	background-position: center center;
 	background-size: contain;
 	background-repeat: no-repeat;
