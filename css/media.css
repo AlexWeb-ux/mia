@@ -99,7 +99,7 @@
     font-size: 16px;
   }
 	.image-slider-main {
-		height: 500px;
+		height: 400px;
 	}
 	.footer__logo p {
     font-size: 12px;
@@ -117,7 +117,7 @@
     margin-left: 15px;
   }
 }
-@media only screen and (max-width : 1000px) {
+@media only screen and (max-width : 1024px) {
 	.blog__item__img {
     height: 185px;
   }
