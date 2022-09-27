@@ -51,8 +51,7 @@ slidesPerView: 3,
 
 $('.menu__icon').click(function() {
 	$('.menu').addClass('active');
-
-})
+});
 
 
 });
