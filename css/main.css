@@ -46,6 +46,9 @@ section,
 .wraper {
   max-width: 1400px;
   margin: 0 auto;
+	padding: 0px 15px;
+}
+.content {
 	padding: 30px 15px;
 }
 a {
