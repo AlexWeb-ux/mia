@@ -54,6 +54,12 @@ $('.menu__icon').click(function() {
 	$('.light__block').fadeIn();
 	$(this).fadeOut();
 });
+$('.light__block').click(function() {
+	$('.menu').removeClass('active');
+	$(this).fadeOut();
+	$('.menu__icon').fadeIn();
+});
+
 
 
 });
