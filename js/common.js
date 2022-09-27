@@ -45,6 +45,8 @@ navigation: {
 	nextEl: '.swiper-button-next',
 	prevEl: '.swiper-button-prev',
 },
+spaceBetween: 0,
+lidesPerView: 3,
 breakpoints: {
 	360: {
 			slidesPerView: 1,
