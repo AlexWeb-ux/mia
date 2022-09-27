@@ -46,7 +46,7 @@ section,
 .wraper {
   max-width: 1400px;
   margin: 0 auto;
-	padding: 0 15px;
+	padding: 30px 15px;
 }
 a {
 	color: #050505;	
@@ -68,9 +68,6 @@ ul li, ol li {
 }
 p {
 	margin-top: 0px;
-}
-.content {
-	padding: 30px 0;
 }
 .content__custom,
 .content__text {
