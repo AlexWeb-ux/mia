@@ -162,7 +162,7 @@ p {
 	width: 20px;
 	height: 20px;
 	position: absolute;
-	background-image: url(./img/down_b_arrow_icon.svg);
+	background-image: url(/img/down_b_arrow_icon.svg);
 	background-position: center center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -576,7 +576,7 @@ nav.menu ul li:hover > ul {
 .contact__phone::before {
   content: '';
 	position: absolute;
-	background-image: url(./img/phone_icon.svg);
+	background-image: url(/img/phone_icon.svg);
 	width: 35px;
 	height: 35px;
 	background-repeat: no-repeat;
@@ -587,7 +587,7 @@ nav.menu ul li:hover > ul {
 .contact__web::before {
   content: '';
 	position: absolute;
-	background-image: url(./img/globe_global_internet_icon.svg);
+	background-image: url(/img/globe_global_internet_icon.svg);
 	width: 35px;
 	height: 35px;
 	background-repeat: no-repeat;
@@ -598,7 +598,7 @@ nav.menu ul li:hover > ul {
 .contact__hours::before {
   content: '';
 	position: absolute;
-	background-image: url(./img/clock_icon.svg);
+	background-image: url(/img/clock_icon.svg);
 	width: 35px;
 	height: 35px;
 	background-repeat: no-repeat;
