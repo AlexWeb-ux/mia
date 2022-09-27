@@ -54,7 +54,7 @@ breakpoints: {
 	},
 	1000: {
 		slidesPerView: 2,
-		spaceBetween: 0
+		spaceBetween: 10
   },
 
  }

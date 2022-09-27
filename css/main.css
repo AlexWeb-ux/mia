@@ -230,6 +230,7 @@ p {
   left: 0;
   margin: auto;
   background: rgba(0,0,0,0.6);
+	webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   z-index: 1;
   display: none;
   cursor: pointer;
