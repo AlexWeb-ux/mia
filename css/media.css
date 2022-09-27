@@ -44,6 +44,38 @@
     margin-top: 15px;
   }
 }
+@media only screen and (max-width : 1080px) {
+	.menu {
+		position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    width: 300px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 30px 15px;
+	}
+	.list li {
+    display: block;
+    margin-left: 15px;
+		margin-bottom: 15px;
+  }
+	.menu__dropdown {
+    border: none;
+    border-radius: 5px;
+    z-index: 99;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    right: 0;
+    display: none;
+  }
+	.menu__dropdown li a {
+    display: block;
+    padding: 5px 15px;
+    font-size: 16px;
+  }
+}
 @media only screen and (max-width : 768px) {
 	
 }
