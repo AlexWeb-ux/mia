@@ -48,11 +48,14 @@ navigation: {
 spaceBetween: 10,
 slidesPerView: 3,
 breakpoints: {
-	// when window is <= 380px
 	360: {
 			slidesPerView: 1,
 			spaceBetween: 0
 	},
+	1000: {
+		slidesPerView: 2,
+		spaceBetween: 0
+  },
 
  }
 });
