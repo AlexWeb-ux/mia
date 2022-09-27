@@ -57,6 +57,11 @@ breakpoints: {
  }
 });
 
+$('.arrow').click(function() {
+	$('li .arrow').removeClass('subactive');
+	$(this).addClass('subactive');
+});
+
 $('.menu__icon').click(function() {
 	$('.menu').addClass('active');
 	$('.light__block').fadeIn();
@@ -67,6 +72,8 @@ $('.light__block').click(function() {
 	$('.menu__icon').fadeIn();
 	$(this).fadeOut();
 });
+
+
 
 
 
