@@ -50,6 +50,7 @@
   }
 	.logo p {
     font-size: 12px;
+		margin-bottom: 0px;
   }
 	.logo a::before {
     width: 35px;
