@@ -14,6 +14,9 @@
     max-width: 230px;
     padding-left: 50px;
   }
+	.list {
+    font-size: 18px;
+  }
 	.content__blog {
     gap: 15px;
   }
